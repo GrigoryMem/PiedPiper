@@ -34,8 +34,11 @@ h6 {
 html,
 body{
     height: 100%;
-    /* line-height: 1; */
-    
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size:32px;
+    color:#000000;
+	line-height: 1.17;
 
 }
 
@@ -52,7 +55,198 @@ body{
 	padding:0 55px;
 	margin: 0 auto;
 }
+.subtitle {
+	text-align: center;
+	font-weight: 500;
+	font-size: 64px;
+	color:#007765;
+	margin-bottom: 16px;
+}
+
+.block-text{
+	font-size: 32px;
+	font-weight: 400;
+	padding:0 55px;
+}
+.block-text p:not(:last-child){
+	margin-bottom: 50px;
+}
+
+.block-text span{
+	font-weight: 700;
+}
+
+.clear{
+	clear:both;
+}
+
 
 /* .main{
 	flex:1 1 auto;расширение и прижатие прибитие футер к низу
 } */
+
+
+
+/* header*/
+.header {
+	position: fixed;
+	width: 100%;
+	z-index: 777;
+	padding:20px 0 19px 0;
+	background-color: #007765;
+}
+
+.header__container{
+	
+}
+
+.header__body{
+	position: relative;
+}
+
+.header__logo {
+	position: relative;
+	
+	vertical-align: middle;
+	padding-left:105px;
+	
+
+}
+.logo{
+	
+	display: inline-block;
+	
+}
+
+
+
+.header__menu {
+	float:right;
+}
+
+.menu {
+	display: inline-block;
+	
+	
+}
+
+.header__nav{}
+
+.nav-header {
+}
+.nav {
+	display: inline-block;
+}
+.nav__list {
+	max-height: 29px;
+}
+.nav__item {
+	
+	display: inline-block;
+	position: relative;
+	
+	
+	/* height: 29px; */
+}
+
+.nav__item:not(:last-child) .nav__link{
+	border-right: 2px solid #fff;
+}
+
+
+
+.nav__link {
+	vertical-align: middle;
+	
+	font-size: 24px;
+	color:#fff;
+	font-weight: 500;
+	line-height: 1.17;
+	padding-right: 8px;
+	
+	
+}
+
+
+
+
+.nav__link:hover{
+	text-decoration: underline;
+}
+
+/* Intro */
+
+
+.intro {
+	
+	margin-top: 84px;
+	background: url("/img/intro/background-intro.jpg") no-repeat;
+	background-size:cover; 
+	min-height: 403px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.intro__container{
+	position: relative;
+	
+}
+.intro__title {
+	/* position: absolute; */
+	/* top:50%; */
+
+}
+.title {
+	
+	color:#fff;
+	text-align: center;
+	font-weight: 500;
+	font-size:72px;
+
+}
+.title-intro {
+}
+
+
+/* problem */
+
+.problem {
+	padding:48px 0px 85px 0px;
+	background-color: #EEEEEE;
+}
+.problem__container {
+}
+.container {
+}
+.problem__body {
+}
+.problem__subtitle {
+
+
+}
+
+.problem__text {
+	
+}
+
+
+.text p:not(:last-child){
+	margin-bottom: 50px;
+}
+
+
+
+.tagline__text{
+	padding:0 163px;
+
+}
+
+.text-tagline{
+
+	color:#fff;
+	font-style: italic;
+	font-size: 48px;
+	font-weight: 500;
+
+}
