@@ -310,3 +310,76 @@ body{
 
 .icon__pipercoin {
 }
+
+
+
+/* team */
+
+
+
+
+
+
+/* team */
+
+.team{
+background-color: #EEEEEE;
+padding:58px 0 112px 0;
+}
+.team__container{
+
+}
+.team__body {
+	text-align: center;
+	padding: 0 55px;
+	margin-bottom: -87px;
+ 	
+}
+.team__subtitle.team__subtitle {
+	margin: 0 0 32px 0;
+}
+.subtitle {
+}
+.team__list {
+	
+	
+}
+
+
+.team__item {
+	
+	
+	display:inline-block;
+	text-align: center;
+	max-width: 350px;
+	width: 100%;
+	margin-bottom: 87px;
+}
+.team__image {
+	margin-bottom:12px;
+
+}
+
+.team__image img{
+	
+	width: 100%;
+	max-width:168px;
+	max-height:168px;
+	border-radius:50%;
+}
+.team__member {
+}
+.team__name {
+	
+	font-weight: 700;
+	font-size: 24px;
+	color:#007765;
+
+}
+.team__position {
+	
+	font-weight: 400;
+	font-size: 18px;
+	color:#000000;
+	font-style: italic;
+}
