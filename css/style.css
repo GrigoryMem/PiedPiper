@@ -402,7 +402,7 @@ body{
 	/* justify-content: center;
 	align-items: center; */
 	/* margin-top: 84px; */
-	background: url("/img/intro/background-intro.jpg") no-repeat;
+	background: url("./img/intro/background-intro.jpg") no-repeat;
 	background-size:cover; 
 	background-position: center top;
 	/* height:100vh; */
@@ -542,7 +542,7 @@ body{
 /* tagline */
 
 .tagline{
-	background: url("/img/tagline/background-1.jpg") no-repeat;
+	background: url("./img/tagline/background-1.jpg") no-repeat;
 	background-size:contain contain;
 	background-position: center center;
 }
