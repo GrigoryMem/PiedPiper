@@ -402,7 +402,7 @@ body{
 	/* justify-content: center;
 	align-items: center; */
 	/* margin-top: 84px; */
-	background: url("./img/intro/background-intro.jpg") no-repeat;
+	background: url("../img/intro/background-intro.jpg") no-repeat;
 	background-size:cover; 
 	background-position: center top;
 	/* height:100vh; */
@@ -417,7 +417,7 @@ body{
 
 @media(max-width:1219px){
 	.intro{
-		background: url("/img/intro/background-intro2.jpg") no-repeat;
+		background: url("../img/intro/background-intro2.jpg") no-repeat;
 		background-size:100% 100%; 
 		background-position: center top;
 		
@@ -430,7 +430,7 @@ body{
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background: url("/img/intro/background-intro2.jpg") no-repeat;
+		background: url("../img/intro/background-intro2.jpg") no-repeat;
 		background-size:cover; 
 		background-position: center top;
 		padding:5rem 0;
@@ -542,14 +542,14 @@ body{
 /* tagline */
 
 .tagline{
-	background: url("./img/tagline/background-1.jpg") no-repeat;
+	background: url("../img/tagline/background-1.jpg") no-repeat;
 	background-size:contain contain;
 	background-position: center center;
 }
 
 @media(max-width:1219px){
 	.tagline{
-		background: url("/img/tagline/background-2.jpg") no-repeat;
+		background: url("../img/tagline/background-2.jpg") no-repeat;
 		background-size:contain contain;
 		background-position: center center;
 	}
