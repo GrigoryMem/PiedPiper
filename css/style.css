@@ -543,7 +543,7 @@ body{
 
 .tagline{
 	background: url("../img/tagline/background-1.jpg") no-repeat;
-	background-size:contain contain;
+	background-size:cover;
 	background-position: center center;
 }
 
@@ -814,9 +814,7 @@ padding:58px 0 112px 0;
 
 
 
-.team__item:nth-child(even){
-	/* margin-right: 212px; */
-}
+
 .team__image {
 	margin-bottom:12px;
 
@@ -835,8 +833,12 @@ padding:58px 0 112px 0;
 	
 	font-weight: 700;
 	font-size: 24px;
-	color:#007765;
 
+
+}
+
+.team__name a{
+	color:#007765;
 }
 .team__position {
 	
